@@ -1,0 +1,6 @@
+This project is an example how to automatically add new sbt subprojects.
+Any subfolder that is added to apps folder will become a new project.
+It will receive a dependency to "common" subproject.
+The main project will also receive a dependency to any new supbroject.
+Look at the file project/project/build.scala to see how this is implemented.
+
